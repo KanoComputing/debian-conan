@@ -1,0 +1,5 @@
+debian-conan (1.14.1-0) unstable; urgency=low
+
+  * Packaging of Conan C/C++ package manager
+
+ -- Team Kano <dev@kano.me>  Tue, 09 Apr 2019 14:22:00 +0100

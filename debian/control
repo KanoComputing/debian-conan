@@ -1,0 +1,24 @@
+Source: debian-conan
+Maintainer: Team Kano <dev@kano.me>
+Section: libs
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends:
+    debhelper (>=9.0.0),
+    python-pip,
+    python-setuptools,
+    dh-python
+
+Package: debian-conan
+Architecture: all
+Depends:
+    ${misc:Depends},
+    ${python:Depends}
+Description: Conan C/C++ Package Manager
+
+Package: debian-conan-dev
+Architecture: all
+Depends:
+    ${misc:Depends},
+    debian-conan
+Description: Conan C/C++ Package Manager, development files

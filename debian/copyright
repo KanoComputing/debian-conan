@@ -1,0 +1,8 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: debian-conan
+Upstream-Contact: Kano developers <dev@kano.me>
+Source: https://github.com/KanoComputing/debian-conan
+
+Files: *
+Copyright: 2019, Kano Team
+License: LGPL
