@@ -1,4 +1,4 @@
-Source: debian-conan
+Source: conan
 Maintainer: Team Kano <dev@kano.me>
 Section: libs
 Priority: optional
@@ -9,16 +9,9 @@ Build-Depends:
     python-setuptools,
     dh-python
 
-Package: debian-conan
+Package: conan
 Architecture: all
 Depends:
     ${misc:Depends},
     ${python:Depends}
 Description: Conan C/C++ Package Manager
-
-Package: debian-conan-dev
-Architecture: all
-Depends:
-    ${misc:Depends},
-    debian-conan
-Description: Conan C/C++ Package Manager, development files
