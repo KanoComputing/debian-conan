@@ -1,1 +1,4 @@
-debian/python-conan/ /
+#!/usr/bin/dh-exec
+
+debian/python-conan/usr/local/bin/ /usr/local
+debian/python-conan/usr/local/lib/ /usr/local
