@@ -10,16 +10,9 @@ Build-Depends:
     python3-setuptools,
     dh-python
 
-Package: debian-conan
+Package: python3-conan
 Architecture: all
 Depends:
     ${misc:Depends},
     ${python3:Depends}
 Description: Conan C/C++ Package Manager
-
-Package: debian-conan-dev
-Architecture: all
-Depends:
-    ${misc:Depends},
-    debian-conan
-Description: Conan C/C++ Package Manager, development files
