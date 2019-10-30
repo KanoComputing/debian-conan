@@ -1,3 +1,9 @@
+debian-conan (1.19.2-0) unstable; urgency=low
+
+  * Upgraded conan to version 1.19.2, running under python3
+
+ -- Team Kano <dev@kano.me>  Wed, 30 Oct 2019 11:55:00 +0100
+
 debian-conan (1.14.1-0) unstable; urgency=low
 
   * Packaging of Conan C/C++ package manager
